@@ -27,8 +27,8 @@ body {
   font-family: Montserrat;
   color: var(--main-text-color);
   background-color: var(--bg-card-color);
-  width: 45vh;
-  max-width: 500px;
+  width: 60vh;
+  max-width: 550px;
   border-radius: 16px;
   padding: 20px 0px;
   box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.33);
@@ -50,7 +50,7 @@ body {
 #page h2 {
   font-size: 24px;
   font-weight: 600;
-  padding: 0px 30px;
+  padding: 0px 50px;
 }
 
 #page h3 {
@@ -64,7 +64,7 @@ body {
   margin: 20px;
   font-size: 14px;
   font-weight: 300;
-  padding: 0px 50px;
+  padding: 0px 80px;
 }
 
 #page span {

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg-color: #141414;
+  --main-text-color: #ffffff;
+  --p-text-color: #c3ea3f;
+  --bg-card-color: #1f1f1f;
+  --background-button: #333333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20vh auto;
+  font-family: Montserrat;
+  color: var(--main-text-color);
+  background-color: var(--bg-card-color);
+  width: 45vh;
+  max-width: 500px;
+  border-radius: 16px;
+  padding-top: 20px;
+  box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.33);
+}
+
+#page img {
+  max-width: 100px;
+  margin: 30px auto;
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
+}
+
+#page img:hover {
+  transform: scale(1.02);
+}
+
+#page h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#page h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 400;
+  color: var(--p-text-color);
+}
+
+#page p {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0px 50px;
+}
+
+#page span {
+  color: var(--p-text-color);
+  font-weight: 500;
+}
+
+#page #links-ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 20px auto;
+  border-radius: 6px;
+  width: 35vh;
+  max-width: 40vh;
+  height: 5vh;
+  color: var(--main-text-color);
+  background-color: var(--background-button);
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#page #links-ul li:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.164);
+  -webkit-box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.164);
+  -moz-box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.164);
+}
+#page #links-ul li:last-child {
+  margin-bottom: 50px;
+}
+
+#page #links-ul a:link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+#page #links-ul a:visited {
+  color: var(--main-text-color);
+}

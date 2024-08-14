@@ -78,7 +78,7 @@ body {
   align-items: center;
   list-style: none;
   margin: 20px auto;
-  font-size: 20px;
+  font-size: 2.098vh;
   border-radius: 6px;
   width: 450px;
   max-width: 35vh;
@@ -96,7 +96,7 @@ body {
   -webkit-box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.164);
   -moz-box-shadow: 2px 2px 11px 7px rgba(0, 0, 0, 0.164);
 }
-#page #links-ul li:last-child {
+#page #links-ul a:last-child {
   margin-bottom: 50px;
 }
 
@@ -116,6 +116,11 @@ footer {
   color: #ffff;
   text-align: center;
   align-items: center;
+  height: 9vh;
+}
+
+footer p {
+  width: 100%;
 }
 
 footer button {
@@ -123,7 +128,9 @@ footer button {
   border-radius: 4px;
   border: none;
   width: 15vh;
+  min-width: 15vh;
   height: 4vh;
+  min-height: 4vh;
   background-color: var(--background-button);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   font-size: 1.5vh;
